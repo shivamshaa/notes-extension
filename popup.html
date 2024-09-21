@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Enhanced Notes</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <h1>Notes Manager</h1>
+        <div class="note-form">
+            <input type="text" id="noteTitle" placeholder="Note Title">
+            <textarea id="noteContent" placeholder="Write your note here..."></textarea>
+            <button id="addButton">Add Note</button>
+        </div>
+        <div id="notesList"></div>
+        <button id="exportButton">Export Notes</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
