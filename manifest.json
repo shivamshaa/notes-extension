@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Enhanced Notes",
+  "version": "1.0",
+  "description": "A simple and intuitive notes manager",
+  "permissions": ["storage"],
+  "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icons/notes.png"
+  },
+  "icons": {
+      "16": "icons/notes.png",
+      "48": "icons/notes.png",
+      "128": "icons/notes.png"
+  }
+}
